@@ -5,6 +5,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 @WebServlet(name = "Servlet",urlPatterns = {"/Servlet"} )
 public class Servlet extends HttpServlet {
@@ -17,6 +22,7 @@ public class Servlet extends HttpServlet {
 
 
         request.setAttribute("minAtribut",navn);
+
 
 
         List<String> liste = new ArrayList<>();
@@ -43,17 +49,10 @@ public class Servlet extends HttpServlet {
 
         request.setAttribute("mapRokkere",map);
 
-
-
-
-
-
         request.setAttribute("rockerListe",liste);
 
-
-
-
         request.getRequestDispatcher("Velkommen.jsp").forward(request,response);
+
 
 
     }
