@@ -5,10 +5,7 @@
   Time: 16.58
   To change this template use File | Settings | File Templates.
 --%>
-<<<<<<< HEAD
 
-=======
->>>>>>> 6ed45b3b56b054db4d97e06399434d59baa63e57
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
