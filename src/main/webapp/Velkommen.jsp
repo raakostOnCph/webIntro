@@ -13,6 +13,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+
+    <style>
+    table, th, td {
+    border: 1px solid black;
+
+    }
+
+    </style>
+
     <title>Title</title>
 </head>
 <body>
@@ -45,15 +54,42 @@ så skal vi have lys i lagkagen
 <br>
 <br>
 
+<table>
+    <tr>
+        <th>Kælenavn</th>
+        <th>lys i lagkagen</th>
+        <th>udgifter til lys</th>
+
+    </tr>
+    <tr>
+
 <c:forEach var="element" items="${requestScope.mapRokkere}">
 
 
-            ${element.key} skal have ${element.value} lys i lagkagen !
-            <br>
+           <td> ${element.key} </td>
+
+           <td> ${element.value}  </td>
+           <td> 17,25 kr  </td>
+
+    </tr>
+    <tr>
+
 </c:forEach>
+
+
+</table>
+
+
 
 <br>
 <br>
+
+
+
+
+
+
+
 
 her kommer der lige et set med rokkkere
 
