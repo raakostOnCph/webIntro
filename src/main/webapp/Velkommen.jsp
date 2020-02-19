@@ -46,7 +46,7 @@ her kommer en liste af de haarde drenge :
 <br>
 <br>
 
-så skal vi have lys i lagkagen
+så skal vi have lys i lagkagen og det er ikke engang løgn
 
 <br>
 <br>

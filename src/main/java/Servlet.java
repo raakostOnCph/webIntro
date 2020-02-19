@@ -33,6 +33,7 @@ public class Servlet extends HttpServlet {
         liste.add("blondie");
         liste.add("gøjler");
         liste.add("feehaar");
+        liste.add("pinocio");
 
 
         Map<String,String> map = new HashMap<>();
